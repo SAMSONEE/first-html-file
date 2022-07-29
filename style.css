@@ -1,0 +1,200 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Style the header */
+
+body {
+    height: 770px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-info {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+}
+
+.header {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 8px 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.header ul a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+/* Style the main information */
+
+.display {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 16px;
+}
+
+.display .content {
+    width: 380px;
+    height: 200px;
+}
+
+.display .content .title {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+    margin-bottom: 5px;
+}
+
+.display .content .text {
+    color: #e5e7eb;
+    margin-bottom: 5px;
+}
+
+.display .content button {
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    background-color: #3882f6;
+    color: white;
+    font-weight: bold;
+}
+
+.display img {
+    width: 350px;
+    height: 200px;
+    background-color: #3d4755;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style the random information cards */
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 26px;
+}
+
+.info .title {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+}
+
+.info .cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card img {
+    border: #3882f6 solid 2px;
+    border-radius: 8px;
+    width: 115px;
+    height: 100px;
+    background-color: white;
+}
+
+.card .text {
+    color: #454953;
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+/* Quote sytle */
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    background-color: #e5e7eb;
+    font: 36px light italic #1f2937;
+    padding: 60px 200px;
+}
+
+.quote .author {
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left: 250px;
+}
+
+/* Style advertisement */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.advertise {
+    background-color: #3882f6;
+    width: 600px;
+    margin: 50px 30px;
+    padding: 30px;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    border-radius: 10px;
+}
+
+.advertise .title {
+    font-weight: bold;
+}
+
+.advertise .text {
+    font-size: 12px;
+}
+
+.advertise button {
+    border: 2px #f9faf8 solid;
+    border-radius: 5px;
+    padding: 8px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+/* Footer style */
+
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 8px 16px;
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+}
