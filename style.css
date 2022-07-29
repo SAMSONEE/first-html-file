@@ -6,10 +6,12 @@
 /* Style the header */
 
 body {
-    height: 770px;
     display: flex;
     flex-direction: column;
+    flex-basis: 700px;
     justify-content: space-between;
+    flex-wrap: wrap;
+    min-height: 100%;
 }
 
 .main-info {
@@ -45,17 +47,19 @@ body {
 /* Style the main information */
 
 .display {
-    height: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
     padding: 16px;
+    flex-wrap: wrap;
 }
 
 .display .content {
     width: 380px;
-    height: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .display .content .title {
@@ -71,6 +75,7 @@ body {
 }
 
 .display .content button {
+    width: 100px;
     border: none;
     border-radius: 5px;
     padding: 8px;
@@ -132,14 +137,14 @@ body {
     margin-top: 5px;
 }
 
-/* Quote sytle */
+/* Quote style */
 
 .quote {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 350px;
+    height: auto;
     background-color: #e5e7eb;
     font: 36px light italic #1f2937;
     padding: 60px 200px;
@@ -193,8 +198,11 @@ body {
 .footer {
     background-color: #1f2937;
     color: #f9faf8;
-    padding: 8px 16px;
+    padding: auto;
     display: flex;
     justify-content: center;
     font-size: 10px;
+    bottom: 0%;
+    position: fixed;
+    width: 100%;
 }
